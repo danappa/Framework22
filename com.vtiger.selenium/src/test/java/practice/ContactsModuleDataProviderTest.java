@@ -21,6 +21,7 @@ public class ContactsModuleDataProviderTest {
 		driver.get("http://localhost:8888/");
 		driver.findElement(By.name("user_name")).sendKeys("admin");
 		driver.findElement(By.name("user_password")).sendKeys("admin");
+		System.out.printn("Good morning");
 		driver.findElement(By.id("submitButton")).click();
 	}
 
