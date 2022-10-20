@@ -38,7 +38,7 @@ public class BaseClass {
 	@BeforeTest(groups = {"smokeTest","regressionTest"})
 	public void bT()
 	{
-		System.out.println("Execute in paralleel mode");
+		System.out.println("Execute in parallel mode");
 	}
 
 //	@Parameters("BROWSER")
