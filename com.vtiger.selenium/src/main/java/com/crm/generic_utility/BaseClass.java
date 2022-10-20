@@ -32,7 +32,8 @@ public class BaseClass {
 	@BeforeSuite(groups = {"smokeTest","regressionTest"})
 	public void bS()
 	{
-		System.out.println("DataBase Connection");
+		System.out.println("DataBase Connection pulled");
+		
 	}
 
 	@BeforeTest(groups = {"smokeTest","regressionTest"})
